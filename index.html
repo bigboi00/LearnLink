@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Newcastle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+ body {
+  margin: 0;
+ }
+
+ footer {
+    background-color: #87CEEB;
+    padding: 50px 229.9px;
+ }
+ .navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    overflow-x: auto;
+    white-space: nowrap; /* Prevent wrapping */
+    padding: 0;
+    margin: 0;
+ }
+
+
+ .img-logo {
+    width: 170px; /* Set the width */
+    height: 170px; /* Set the height */
+ }
+
+ .dropdown {
+    float: left;
+    overflow: hidden;
+    margin: 0; /* Reset margins */
+    padding: 0;
+ }
+
+.navbar .nav-text {
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #87CEEB;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    height: 110px;
+    width: 24%;
+    padding-top: 60px;
+ }
+
+
+ /* Student Resource button */
+ .dropdown .dropbtn {
+    font-size: 32px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #87CEEB;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    height: 170px;
+    width: 350px;
+ }
+
+ /* Services button */
+ .dropdown .dropbtn_services {
+    font-size: 32px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #87CEEB;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    height: 170px;
+    width: 250px;
+ }
+
+
+ /* Add a red background color to navbar links on hover */
+ .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #1090D5;
+    color: white;
+ }
+
+ /* Dropdown content (hidden by default) */
+ .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #87CEEB;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        font-size: 28px;
+        float: none;
+        color: black;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        height: 100px;
+        width: 350px;
+        padding-top: 30px;
+    }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #1090D5;
+        }
+
+ /* Show the dropdown menu on hover */
+ .dropdown:hover .dropdown-content {
+    display: block;
+ }
+
+
+ .dropdown-content-service {
+    display: none;
+    position: fixed;
+    background-color: #87CEEB;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ }
+
+    /* Links inside the dropdown */
+    .dropdown-content-service a {
+        font-size: 28px;
+        float: none;
+        color: black;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        height: 100px;
+        width: 250px;
+        padding-top: 30px;
+    }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content-service a:hover {
+            background-color: #1090D5;
+        }
+
+ /* Show the dropdown menu on hover */
+ .dropdown:hover .dropdown-content-service {
+    display: block;
+ }
+ </style>
+</head>
+<html>
+<body>
+<nav class="navbar">    
+    <a href="~/">
+        <img src="https://www.newcastle.edu.au/__data/assets/file/0011/661727/uon-logo-square.svg" alt="The University of Newcastle, Australia" class="img-logo">
+    </a>
+    <div class="dropdown">
+        <button class="dropbtn">
+            Student Resources
+        </button>
+        <div class="dropdown-content">
+            <a href="https://learnlink.azurewebsites.net/contact-us">Contact Us</a>
+            <a href="https://learnlink.azurewebsites.net/student-feedback">Student Feedback</a>
+            <a href="https://learnlink.azurewebsites.net/course-enrolment">Course Enrolment</a>
+            <a href="https://learnlink.azurewebsites.net/overseas-student">Overseas Student</a>
+        </div>
+    </div>
+    <a class="nav-text" href="https://learnlink.azurewebsites.net/whats-new">What's New</a>
+    <div class="dropdown">
+        <button class="dropbtn_services">
+            Services
+        </button>
+        <div class="dropdown-content-service">
+            <a href="https://learnlink.azurewebsites.net/student-cares">Student Cares</a>
+            <a href="https://learnlink.azurewebsites.net/location">Location</a>
+            <a href="https://learnlink.azurewebsites.net/faculty">Faculty</a>
+            <a href="https://learnlink.azurewebsites.net/facility">Facility</a>
+        </div>
+    </div>
+    <a class="nav-text" href="https://learnlink.azurewebsites.net/about-singapore">About Singapore</a>
+</nav>
+
+<footer><p> <i class="far fa-copyright"></i> <strong>2024 University of Newcastle</strong> <i class="fab fa-facebook" style="float: right; font-size: 24px; padding-left: 10px;"></i>  <i class="fab fa-instagram" style="float: right; font-size: 24px; padding-left: 10px;"></i>  <i class="fab fa-twitter" style="float: right; font-size: 24px; padding-left: 10px;"></i>  <i class="fab fa-linkedin" style="float: right; font-size: 24px; padding-left: 10px;"></i>  <i class="fab fa-youtube" style="float: right; font-size: 24px; padding-left: 10px;"></i>  </p> </footer>
+</body>
+</html>
